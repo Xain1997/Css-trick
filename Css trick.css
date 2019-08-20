@@ -1,0 +1,135 @@
+body.back{
+    background: rgb(22, 0, 22);
+}
+
+.header-middle-area{
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+h1.solid{
+    font-size: 42px;
+    font-weight: 700;
+}
+li.bod{
+    border-right: 1px solid #201c29;
+}
+
+#mid{
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+
+  color: rgb(255, 253, 253);
+}
+article{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://res.cloudinary.com/css-tricks/image/fetch/w_1200,q_auto,f_auto/https://css-tricks.com/wp-content/uploads/2019/08/wpn-190814.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+a.link {
+    color: rgb(255, 253, 253);
+    
+  }   
+#author{
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  color: rgb(255, 253, 253);
+}
+  a:hover{
+    background-image: linear-gradient(to right, red , yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      text-decoration:none;
+  }
+#pic{
+  padding-top: 300px;
+  padding-left: 110px;
+  
+}
+.tag{
+  color: #7a7a8c;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+  border: 3px solid #ffffff;
+  border-radius: 2rem;
+  padding: .2rem .85rem .25rem;
+}
+.mini-card {
+  min-width: 250px;
+  min-height: 250px;
+  padding: 1.8rem;
+  border-radius: 16px;
+  background: #17141d;
+  -webkit-box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 3rem #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 0;
+}
+.mini-card:hover {
+  -webkit-transform: translate(0,-1rem);
+  transform: translate(0,-1rem);
+  scroll-snap-align: start;
+}
+.white{
+  color: white;
+}
+.tags{
+  color: #7a7a8c;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  white-space: nowrap;
+  border: 3px solid #ffffff;
+  border-radius: 2rem;
+  padding: .2rem .85rem .25rem;
+}
+.module {
+  padding-left: 20px;
+  clear: both;
+  margin: 0 0 1rem;
+  position: relative;
+}
+.articles-and-rail {
+    display: grid;
+    grid-template-columns: 300px minmax(0,1fr);
+    grid-gap: 5.33rem;
+}
+.single-ad {
+  width: 300px;
+  opacity: 0;
+  margin: 0 0 2rem;
+  position: relative;
+}
+.ad-3{
+  -webkit-animation: ad_come_in 0s 1.8s forwards;
+  animation: ad_come_in 0s 1.8s forwards;
+}
+.pack{
+  display:grid;
+  grid-template-columns: 80px auto 1fr;
+  grid-template-areas: "avatar author comments" "avatar published updated";
+  grid-gap: .5rem 2rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ta{
+  padding: .5rem 0 1rem;
+}
